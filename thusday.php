@@ -15,8 +15,7 @@
         }
         table
         {
-            position: absolute;
-            left: 160px;
+            border: 2px solid blue;
         }
     </style>
 
@@ -35,7 +34,7 @@
                 </h4>
 
           
-    <table border="2">
+    <table border="2" align="center">
 
 
         <tr style="background-color:#00FFFF;">
