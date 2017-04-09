@@ -1,0 +1,72 @@
+create table student(
+	ID varchar(10) primary key,
+	Name varchar(30) not null,
+	Email varchar(30) not null,
+	Pass varchar(30) not null
+);
+
+create table class(
+	Room varchar(30),
+	Day varchar(30),
+	Class1 varchar(300),
+	Class2 varchar(300),
+	Class3 varchar(300),
+	Class4 varchar(300),
+	Class5 varchar(300),
+	Class6 varchar(300)
+);
+
+insert into class values('401','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('401','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('401','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('401','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('401','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('401','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+insert into class values('402','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('402','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('402','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('402','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('402','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('402','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+insert into class values('403','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('403','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('403','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('403','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('403','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('403','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+insert into class values('404','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('404','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('404','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('404','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('404','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('404','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+insert into class values('405','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('405','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('405','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('405','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('405','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('405','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+insert into class values('406','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('406','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('406','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('406','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('406','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('406','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+insert into class values('407','Sat','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('407','sun','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('407','mon','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('407','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('407','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+insert into class values('407','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
