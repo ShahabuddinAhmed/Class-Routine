@@ -21,7 +21,6 @@
         table
         {
             border: 2px solid blue;
-            position: center;
         }
 
     </style>
