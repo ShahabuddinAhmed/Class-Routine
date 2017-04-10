@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Class Routine</title>
+        <title>Class </title>
     </head>
 
     <style>
