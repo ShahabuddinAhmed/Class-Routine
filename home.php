@@ -134,7 +134,7 @@
         <div class="footer navbar-fixed-bottom">
             <footer>
                 <h3> All Rights Reserved By</h3>
-                <h4> Group of Undefined: CSE RU-2013-14</h4>
+                <h4> Bangladesh University</h4>
             </footer>
         </div>
     </body>
