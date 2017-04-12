@@ -2,14 +2,120 @@
 <html>
     <head>
         <title>Class Routine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="search/search.css">
     </head>
 
     <style>
-        body
+        div cls
         {
-            background-color: gray;
+            text-align: center;
         }
-        body
+       body
+        {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            background-color: rgba(0,0,0,0.3);
+            background-size: cover;
+
+        }
+
+        nav ul
+        {
+            margin: 0;
+            color: white;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(0,0,0,.7);
+            text-align: none;
+        }
+        li.Rig
+        {
+            float: right;
+        }
+        li.lef
+        {
+            float: left;
+        }
+
+        nav ul li
+        {
+            display: inline-block;
+            color: white;
+            padding: 20px
+        }
+
+        nav ul li:hover
+        {
+            background-color: #111;
+        }
+
+        h2 dept
+        {
+
+        }
+        
+        .field-wrap
+        {
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        div.Right
+        {
+            width: 35%;
+            float: center;
+            padding: 5px;
+            height: 100%;
+            background-color: #c1bdba;
+        }
+
+        .row.content {height: 950px}
+
+   
+        footer{
+            width: 100%;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            background-color: rgba(0,0,0,.7);
+        }
+
+
+        a:hover
+        {
+            background-color: #111;
+            text-decoration: none;
+        }
+
+
+        li:last-child
+        {
+            border-bottom: none;
+        }
+
+        @media screen and (max-width: 700px) {
+
+            
+            nav ul li{
+                box-sizing: border-box;
+                width: 100%;
+                padding: 15px;
+                text-align: center;
+
+            }
+            .handle
+            {
+                display: block;
+            }
+        }        body
         {
             text-align: center;
         }
@@ -17,20 +123,32 @@
         {
             border: 2px solid blue;
         }
+        a
+        {
+            text-decoration: none;
+            color: black;
+        }
     </style>
 
     <body>
+        <nav>
+
+            <ul>
+                <a  href="home.php"><li class="lef">  Home </li></a>
+                <a  href="logout.php"><li class="Rig">Logout</li></a>
+            </ul>
+        </nav>
         <h1 style="text-align:center;"><b>BANGLADESH UNIVERSITY</b></h1>
            <h2 style="text-align:center;">Department:Computer Science and Engineering</h2>
              <h3 style="text-align:center;">Class Routine Schedule</h3>
                <h4 >
                
-               <a href="index.php"  style="text-decoration:none">Saturday</a>
-               <a href="sunday.php"  style="text-decoration:none">Sunday</a>
-               <a href="monday.php"  style="text-decoration:none">Monday</a>
-               <a href="tuesday.php"  style="text-decoration:none">Tuesday</a>
-               <a href="wednesday.php"  style="text-decoration:none">Wednesday</a>
-               <a href="thusday.php"  style="text-decoration:none">Thursday</a>
+               <a href="index.php">Saturday</a>
+               <a href="sunday.php">Sunday</a>
+               <a href="monday.php">Monday</a>
+               <a href="tuesday.php">Tuesday</a>
+               <a href="wednesday.php">Wednesday</a>
+               <a href="thusday.php">Thursday</a>
                 </h4>
 
           
