@@ -156,9 +156,19 @@
                         <option style="color: black" value="cls6">05.00-6.30 PM</option>
                     </select>
                     <br>
-                    <div class="form-group">
-                        <input type="text" name="batch" class="form-control" id="usr" placeholder="Entire Batch Number..." maxlength="25">
-                    </div>
+                    <select name="batch" class="form-control">
+                        <option value="">Select Batch Number</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                    <br>
                     <select name="sub" class="form-control">
                         <option value="">Select Sub Name</option>
                         <option value="CSE-111">CSE-111</option>
@@ -181,7 +191,7 @@
                         <option value="BUS-135">BUS-135</option>
                         <option value="CSE-211">CSE-211</option>
                         <option value="CSE-212">CSE-212</option>
-                        <option value=""CSE-213>CSE-213</option>
+                        <option value="CSE-213">CSE-213</option>
                         <option value="CSE-214">CSE-214</option>
                         <option value="CSE-215">CSE-215</option>
                         <option value="MATH-211">MATH-211</option>
