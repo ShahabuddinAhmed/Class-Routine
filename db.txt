@@ -1,5 +1,5 @@
 create table student(
-	ID varchar(10) primary key,
+	ID varchar(30) primary key,
 	Name varchar(30) not null,
 	Email varchar(30) not null,
 	Pass varchar(30) not null
