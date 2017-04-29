@@ -10,7 +10,7 @@
 		$sql = "INSERT INTO student VALUES('$stid','$stname','$stemail','$stpass')";
 		if($conn->query($sql)===TRUE)
 		{
-			echo "You have Successfully Registered";
+			//echo "You have Successfully Registered";
 			header('location:home.php');
 		}
 		else
