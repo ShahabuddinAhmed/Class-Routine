@@ -5,6 +5,25 @@ create table student(
 	Pass varchar(30) not null
 );
 
+
+
+create table selection1(
+	name varchar(30)
+);
+
+
+create table selection2(
+	sub varchar(30)
+);
+
+
+
+create table selection3(
+	batch varchar(30)
+);
+
+
+
 create table class(
 	Room varchar(30),
 	Day varchar(30),
@@ -70,3 +89,111 @@ insert into class values('407','mon','NO Class', 'NO Class', 'NO Class', 'NO Cla
 insert into class values('407','tus','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
 insert into class values('407','wen','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
 insert into class values('407','thu','NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class', 'NO Class');
+
+
+
+
+
+insert into selection1 values('Mr.Sadiq Iqbal(SI)');
+insert into selection1 values('Mr.Yeasir Fathah(YF)');
+insert into selection1 values('Ibrahim hussain');
+insert into selection1 values('Shahriar parvez');
+insert into selection1 values('Rokeya khatun');
+insert into selection1 values('Uzzal Kumar Prodhan');
+insert into selection1 values('Md.Ali Hossain');
+insert into selection1 values('Utpal Dey');
+insert into selection1 values('Umme Samlma');
+insert into selection1 values('Bikash Karmokar');
+insert into selection1 values('Sujan Howlader Essan');
+insert into selection1 values('Sarwar Parvez');
+insert into selection1 values('Dr.Israt Jahan');
+insert into selection1 values('Mrinmoy Das');
+insert into selection1 values('Sadia Afrin Shampa');
+insert into selection1 values('Saoreen Rahman');
+insert into selection1 values('Jaba Chakrabarty');
+insert into selection1 values('Meskat Ibne Sarif');
+
+
+
+
+
+
+
+insert into selection2 values('CSE-111');
+insert into selection2 values('CSE-112');
+insert into selection2 values('CSE-113');
+insert into selection2 values('MATH-111');
+insert into selection2 values('ENG-111');
+insert into selection2 values('BUS-115');
+insert into selection2 values('CSE-121');
+insert into selection2 values('CSE-122');
+insert into selection2 values('ENG-125');
+insert into selection2 values('MATH-121');
+insert into selection2 values('CSE-123');
+insert into selection2 values('CSE-124');
+insert into selection2 values('CSE-131');
+insert into selection2 values('CSE-133');
+insert into selection2 values('CSE-134');
+insert into selection2 values('CSE-135');
+insert into selection2 values('CSE-136');
+insert into selection2 values('BUS-135');
+insert into selection2 values('CSE-211');
+insert into selection2 values('CSE-212');
+insert into selection2 values('CSE-213');
+insert into selection2 values('CSE-214');
+insert into selection2 values('CSE-215');
+insert into selection2 values('MATH-211');
+insert into selection2 values('CSE-221');
+insert into selection2 values('CSE-222');
+insert into selection2 values('CSE-223');
+insert into selection2 values('CSE-224');
+insert into selection2 values('STAT-225');
+insert into selection2 values('CSE-231');
+insert into selection2 values('CSE-232');
+insert into selection2 values('CSE-233');
+insert into selection2 values('CSE-234');
+insert into selection2 values('CSE-235');
+insert into selection2 values('CSE-311');
+insert into selection2 values('CSE-312');
+insert into selection2 values('CSE-313');
+insert into selection2 values('CSE-314');
+insert into selection2 values('BUS-315');
+insert into selection2 values('CSE-316');
+insert into selection2 values('CSE-321');
+insert into selection2 values('CSE-322');
+insert into selection2 values('CSE-323');
+insert into selection2 values('STAT-324');
+insert into selection2 values('CSE-325');
+insert into selection2 values('CSE-326');
+insert into selection2 values('CSE-331');
+insert into selection2 values('CSE-332');
+insert into selection2 values('CSE-333');
+insert into selection2 values('CSE-334');
+insert into selection2 values('CSE-335');
+insert into selection2 values('CSE-336');
+insert into selection2 values('CSE-400');
+insert into selection2 values('CSE-411');
+insert into selection2 values('CSE-412');
+insert into selection2 values('BUS-415');
+insert into selection2 values('CSE-413');
+insert into selection2 values('CSE-421');
+insert into selection2 values('CSE-422');
+insert into selection2 values('CSE-423');
+insert into selection2 values('CSE-424');
+insert into selection2 values('CSE-431');
+insert into selection2 values('CSE-432');
+insert into selection2 values('CSE-433');
+
+
+
+
+
+insert into selection3 values('36');
+insert into selection3 values('37');
+insert into selection3 values('38');
+insert into selection3 values('39');
+insert into selection3 values('40');
+insert into selection3 values('41');
+insert into selection3 values('42');
+insert into selection3 values('43');
+insert into selection3 values('44');
