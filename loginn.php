@@ -4,10 +4,7 @@
 	{
 		header('location:index.php');
 	}
-    if(isset($_SESSION['login_admin']))
-    {
-        header('location:admin.php');
-    }
+
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +30,7 @@
                       
                         <h1>Welcome Back!</h1>
                       
-                        <form action="" method="post">
+                        <form action="dblogin.php" method="post">
                               
                             <div class="field-wrap">
                                     <label>
