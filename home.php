@@ -115,7 +115,8 @@
             padding-left: 100px;
             padding-bottom: 25px;
             text-align: justify;
-            color: #00FF7F;
+            color: rgba(1,1,1,1);
+            font-size: 20px;
         }
 
         @media screen and (max-width: 700px) {
