@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['login_user']))
+    {
+        header("location:home.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -95,6 +103,10 @@
             background-color: #111;
             text-decoration: none;
         }
+        th
+        {
+            text-align: center;
+        }
 
 
         li:last-child
@@ -143,6 +155,7 @@
         <h1 style="text-align:center;"><b>BANGLADESH UNIVERSITY</b></h1>
            <h2 style="text-align:center;">Department:Computer Science and Engineering</h2>
              <h3 style="text-align:center;">Class Routine Schedule</h3>
+             <h3 style="text-align:center;">Routine for Sunday</h3>
                <h4 >
                <a href="index.php">Saturday</a>
                <a href="sunday.php">Sunday</a>
@@ -1571,4 +1584,6 @@
 
 
     </body>
+    <br>
+    <br>
 </html>

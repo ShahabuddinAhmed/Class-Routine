@@ -137,6 +137,10 @@
             text-decoration: none;
             color: black;
         }
+        th
+        {
+            text-align: center;
+        }
 
     </style>
 
@@ -152,6 +156,7 @@
         <h1 style="text-align:center;"><b>BANGLADESH UNIVERSITY</b></h1>
            <h2 class="dept">Department:Computer Science and Engineering</h2>
              <h3 style="text-align:center;">Class Routine Schedule</h3>
+             <h3 style="text-align:center;">Routine for Saturday</h3>
                <h4 >
                
                <a href="index.php">Saturday</a>
@@ -1580,5 +1585,7 @@
     </tr>
 </table>
 </div>
+    <br>
+    <br>
     </body>
 </html>

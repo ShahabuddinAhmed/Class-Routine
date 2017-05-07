@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['login_user']))
+    {
+        header("location:home.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -43,6 +51,10 @@
         li.lef
         {
             float: left;
+        }
+        th
+        {
+            text-align: center;
         }
 
         nav ul li
@@ -141,6 +153,7 @@
         <h1 style="text-align:center;"><b>BANGLADESH UNIVERSITY</b></h1>
            <h2 style="text-align:center;">Department:Computer Science and Engineering</h2>
              <h3 style="text-align:center;">Class Routine Schedule</h3>
+             <h3 style="text-align:center;">Routine for Monday</h3>
                <h4 >
                
                <a href="index.php">Saturday</a>
@@ -1567,7 +1580,8 @@
         </td>
 
     </tr>
-
+    <br>
+    <br>
 
     </body>
 </html>
