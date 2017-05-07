@@ -21,9 +21,18 @@
             margin: 0px;
             padding: 0px;
             height: 100%;
-            background-color: rgba(0,0,0,0.3);
+            background-color: rgba(0,0,0,0.1);
+            background: url("picture/ttt.PNG") fixed center;
             background-size: cover;
 
+        }
+        div.home
+        {
+            letter-spacing: 4px;
+            text-align: center;
+            text-shadow: 9px;
+            font-size: 25px;
+            color: #DC143C;
         }
 
         a
@@ -99,6 +108,15 @@
         {
             border-bottom: none;
         }
+        div.text
+        {
+            padding-right: 100px;
+            padding-top: 75px;
+            padding-left: 100px;
+            padding-bottom: 25px;
+            text-align: justify;
+            color: #00FF7F;
+        }
 
         @media screen and (max-width: 700px) {
 
@@ -124,13 +142,24 @@
 
             <ul>
                 <a  href="home.php"><li> Home </li></a>
-                <a  href=""><li> About </li></a>
-                <a  href="loginn.php"><li class="Rig">Login</li></a>
+                <a  href="loginn.php"><li class="Rig">Student Login</li></a>
+                <a  href="adminlogin.php"><li class="Rig">Admin Login</li></a>
                 <a  href="registration.php"><li class="Rig">Registration</li></a>
             </ul>
             
         </nav>
 
+
+        <div class="home">
+            <br>
+            WELCOME TO BANGLADESH UNIVERSITY
+        </div>
+
+        <div class="text">
+            Bangladesh University (BU) started its journey in 2001. Since then it has been providing quality higher education at a minimum cost especially for the financially underprivileged. For more than a decade, BU has been increasing and nurturing talent within the youth with modern knowledge and technology. With the international affiliations, BU aims at making its students capable and ethical leaders to lead and represent our nation around the world.
+            <br>
+            Under the Private University Act (1992), BU has been approved by the Government of the People's Republic of Bangladesh. The University maintains close collaboration with the University Grants Commission (UGC) including several American, British, Netherlands and other universities across the globe with its noble vision and mission since 2001. Bangladesh University strives to attain perfection in its efforts to educate the youth of Bangladesh.
+        </div>
         <div class="footer navbar-fixed-bottom">
             <footer>
                 <h3> All Rights Reserved By</h3>
