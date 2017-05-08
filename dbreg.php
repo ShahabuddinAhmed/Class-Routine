@@ -6,23 +6,50 @@
 	$stemail = $_POST['email'];
 	if($stid!="" && $stpass!= "" && $stname!="" && $stemail!= "")
 	{
-		include 'dbconnect.php';
-		$sql = "INSERT INTO student VALUES('$stid','$stname','$stemail','$stpass')";
-		if($conn->query($sql)===TRUE)
+		if(ctype_alpha($stname) && ctype_digit($stid))
 		{
-			//echo "You have Successfully Registered";
-			header('location:home.php');
+			include 'dbconnect.php';
+			$sql = "INSERT INTO student VALUES('$stid','$stname','$stemail','$stpass')";
+			if($conn->query($sql)===TRUE)
+			{
+				//echo "You have Successfully Registered";
+				header('location:home.php');
+			}
+			else
+			{
+				echo "Eoor.".$conn->error;
+			}
+			$conn->close();
+
 		}
 		else
 		{
-			echo "Eoor.".$conn->error;
+			if(ctype_alpha($stname))
+			{
+				
+			}
+			else
+			{
+				echo "Student Name could not be Number <br> <br>";
+			}
+			if (ctype_digit($stid))
+			{
+				
+			}
+			else
+			{
+				echo "Student ID could not be Alphabet";
+			}
 		}
+
+
 	}
 	else
 	{
 		echo "Please Fill up all information";
 	}
 
-	$conn->close();
+
+	
 
  ?>
