@@ -39,7 +39,7 @@
                         <label>
                             Email Address<span class="req">*</span>
                         </label>
-                        <input type="text" name = "email" required autocomplete="off"/>
+                        <input type="email" name = "email" required autocomplete="off"/>
                     </div>
                   
                     <div class="field-wrap">
