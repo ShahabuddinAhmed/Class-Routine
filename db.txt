@@ -13,13 +13,13 @@ create table selection1(
 
 
 create table selection2(
-	sub varchar(30)
+	sub varchar(30) primary key
 );
 
 
 
 create table selection3(
-	batch varchar(30)
+	batch varchar(30) primary key
 );
 
 
