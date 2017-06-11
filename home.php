@@ -21,7 +21,7 @@
             margin: 0px;
             padding: 0px;
             height: 100%;
-            background-color: rgba(0,0,0,0.1);
+            background-color: rgba(0,0,0,0.2);
             background: url("picture/ttt.PNG") fixed center;
             background-size: cover;
 
