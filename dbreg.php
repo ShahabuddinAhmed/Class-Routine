@@ -24,22 +24,16 @@
 		}
 		else
 		{
-			if(ctype_alpha($stname))
+			if(ctype_digit($stname))
 			{
-				
+				echo "Student Name could not be Digit <br> <br>";
 			}
-			else
-			{
-				echo "Student Name could not be Number <br> <br>";
-			}
-			if (ctype_digit($stid))
-			{
-				
-			}
-			else
+
+			if (ctype_alpha($stid))
 			{
 				echo "Student ID could not be Alphabet";
 			}
+			
 		}
 
 
